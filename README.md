@@ -85,3 +85,18 @@ CHROM|	POS|	ID|	REF|	ALT|	A1|	TEST|	OBS_CT|	BETA|	SE|	T_STAT|	P|	ERRCODE
 …
 
 In addition to the above file, an output file named “QTNs” that includes QTN candidates exacted by Bonferroni threshold is generated from **HiGLMM** function. If joint analysis is implemented, an output file named “jointQTNs” that displays candidate QTNs from joint analysis is generated in addition.
+
+
+## 5. Example
+```
+library(HiGLMM)
+library(BEDMatrix)
+library(data.table)
+library(parallel)
+library(snow)
+
+setwd("./example")
+plinkfilename <- "geno"
+data <- Data_HiGLMM(plinkfilename)
+HiGLMM(data)
+```
