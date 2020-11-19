@@ -31,7 +31,7 @@ If **HiGLMM** has been successfully installed, you can load it in an R session u
 ```
 library(HiGLMM)
 ```
-and then loading "BEDMatrix ", " data.table ", "parallel", "snow" <br>
+and then loading "BEDMatrix ", " data.table ", "parallel" and "snow". <br>
 ```
 library(BEDMatrix)
 library(data.table)
