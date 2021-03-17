@@ -17,7 +17,8 @@ HiGLMM(gdata,Test=c("Jiont","Separate") ,thread=NULL,QQ=F,Manh=F)
 ```
 #### Arguments
 #### filename
-An object class of character: the filename before the suffix of plink files. The three plink file must have a same filename, for example, “filename.bed”, “filename.bim” and “filename.bam”.
+An object class of character，which consists of three PLINK BED files with the same name. For example, Genotype.bed, Genotype.bim and Genotype.fam.
+
 #### h2
 An object class of numeric. Heritability will be used for estimating breeding values. Must provide, if ebv = NULL.
 #### ebv
