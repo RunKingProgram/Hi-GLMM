@@ -28,11 +28,11 @@ An object class of list generated from the Data_HiGLMM function.
 
 An optional for association test, a test at once or joint analysis. You can choose “Separate” for a test at once and “Joint” for further joint analysis based on the result of “Separate”.
 
-####QQ
+#### QQ
 
 logicals. If TURE, Q-Q plot would be drawn.
 
-####Manh
+#### Manh
 
 logicals. If TURE, Manh plot would be drawn.
 
