@@ -4,7 +4,7 @@
 ####	Downloading Hi-GLMM
 HiRRM can be downloaded https://github.com/RunKingProgram/Hi-GLMM. It can be installed as a regular R package.
 ####	Installing Hi-GLMM
-Hi-GLMM links to R packages Rcpp, RcppArmadillo, RcppEigen, snow, parallel,data.table, nlme and BEDMatrix. These dependencies should be installed before installing Hi-GLMM. In addition, **Hi-GLMM requires GEMMA software**. Here is an example for installing Hi-GLMM and all its dependencies in an R session(assuming none of the R packages other than the default has been installed):
+Hi-GLMM links to R packages Rcpp, RcppArmadillo, RcppEigen, snow, parallel,data.table, nlme and BEDMatrix. These dependencies should be installed before installing Hi-GLMM. In addition, **Hi-GLMM requires GEMMA software (chmod 777) under your working directory**. Here is an example for installing Hi-GLMM and all its dependencies in an R session(assuming none of the R packages other than the default has been installed):
 ```
 install.packages( c( "Rcpp", "RcppArmadillo", "RcppEigen", "snow", "parallel", "data.table", "BEDMatrix" ), repos = "https://cran.r-project.org/" )
 system( “R CMD install HiGLMM_v0.9_MacOS.tgz” )
