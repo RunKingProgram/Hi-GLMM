@@ -49,7 +49,7 @@ library(RcppArmadillo)
 
 
 setwd("./example")
-gdata = Data_HiGLMM("geno", 0.5) 
+gdata = Data_HiGLMM("geno", 0.656) 
 HiGLMM(gdata,QQ=T,Manh=T)
 ```
 
