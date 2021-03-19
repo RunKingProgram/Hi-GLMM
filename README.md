@@ -50,6 +50,6 @@ library(RcppArmadillo)
 
 setwd("./example")
 gdata = Data_HiGLMM("geno", 0.5) 
-HiGLMM(gdata)
+HiGLMM(gdata,QQ=T,Manh=T)
 ```
 
